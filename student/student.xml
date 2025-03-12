@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>mahi</name>
+        <age>20</age>
+        <major>Computer Science</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>123 Elm St</street>
+            <city>Springfield</city>
+            <state>IL</state>
+            <zip>62701</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>2</id>
+        <name>nidhi</name>
+        <age>22</age>
+        <major>Mathematics</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>456 Oak St</street>
+            <city>Champaign</city>
+            <state>IL</state>
+            <zip>61820</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>3</id>
+        <name>harika</name>
+        <age>19</age>
+        <major>Biology</major>
+        <gpa>3.9</gpa>
+        <address>
+            <street>789 Pine St</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60605</zip>
+        </address>
+    </student>
+</students>
+
+    <student>
+        <id>4</id>
+        <name>mahi</name>
+        <age>20</age>
+        <major>Computer Science</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>123 Elm St</street>
+            <city>Springfield</city>
+            <state>IL</state>
+            <zip>62701</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>5</id>
+        <name>nidhi</name>
+        <age>22</age>
+        <major>Mathematics</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>456 Oak St</street>
+            <city>Champaign</city>
+            <state>IL</state>
+            <zip>61820</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>6</id>
+        <name>harika</name>
+        <age>19</age>
+        <major>Biology</major>
+        <gpa>3.9</gpa>
+        <address>
+            <street>789 Pine St</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60605</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>7</id>
+        <name>arun</name>
+        <age>21</age>
+        <major>Physics</major>
+        <gpa>3.7</gpa>
+        <address>
+            <street>101 Maple St</street>
+            <city>Naperville</city>
+            <state>IL</state>
+            <zip>60563</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>8</id>
+        <name>sunita</name>
+        <age>23</age>
+        <major>Chemistry</major>
+        <gpa>3.5</gpa>
+        <address>
+            <street>202 Birch St</street>
+            <city>Peoria</city>
+            <state>IL</state>
+            <zip>61602</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>9</id>
+        <name>rohit</name>
+        <age>24</age>
+        <major>Economics</major>
+        <gpa>3.4</gpa>
+        <address>
+            <street>303 Cedar St</street>
+            <city>Rockford</city>
+            <state>IL</state>
+            <zip>61101</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>10</id>
+        <name>arvind</name>
+        <age>22</age>
+        <major>Electrical Engineering</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>404 Pine St</street>
+            <city>Peoria</city>
+            <state>IL</state>
+            <zip>61603</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>11</id>
+        <name>priya</name>
+        <age>19</age>
+        <major>Mechanical Engineering</major>
+        <gpa>3.9</gpa>
+        <address>
+            <street>505 Oak St</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60606</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>12</id>
+        <name>vishal</name>
+        <age>21</age>
+        <major>Information Technology</major>
+        <gpa>3.7</gpa>
+        <address>
+            <street>606 Maple St</street>
+            <city>Champaign</city>
+            <state>IL</state>
+            <zip>61821</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>13</id>
+        <name>pradeep</name>
+        <age>20</age>
+        <major>Mechanical Engineering</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>707 Birch St</street>
+            <city>Decatur</city>
+            <state>IL</state>
+            <zip>62521</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>14</id>
+        <name>anita</name>
+        <age>19</age>
+        <major>Electrical Engineering</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>808 Cedar St</street>
+            <city>Joliet</city>
+            <state>IL</state>
+            <zip>60431</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>15</id>
+        <name>rahul</name>
+        <age>21</age>
+        <major>Physics</major>
+        <gpa>3.5</gpa>
+        <address>
+            <street>909 Pine St</street>
+            <city>Elmhurst</city>
+            <state>IL</state>
+            <zip>60126</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>16</id>
+        <name>shivani</name>
+        <age>23</age>
+        <major>Biology</major>
+        <gpa>3.9</gpa>
+        <address>
+            <street>1010 Oak St</street>
+            <city>Naperville</city>
+            <state>IL</state>
+            <zip>60564</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>17</id>
+        <name>deepak</name>
+        <age>22</age>
+        <major>Computer Science</major>
+        <gpa>3.7</gpa>
+        <address>
+            <street>1111 Maple St</street>
+            <city>Champaign</city>
+            <state>IL</state>
+            <zip>61822</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>18</id>
+        <name>kanika</name>
+        <age>20</age>
+        <major>Chemistry</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>1212 Birch St</street>
+            <city>Peoria</city>
+            <state>IL</state>
+            <zip>61615</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>19</id>
+        <name>kartik</name>
+        <age>24</age>
+        <major>Mathematics</major>
+        <gpa>3.5</gpa>
+        <address>
+            <street>1313 Cedar St</street>
+            <city>Rockford</city>
+            <state>IL</state>
+            <zip>61107</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>20</id>
+        <name>reshma</name>
+        <age>21</age>
+        <major>Economics</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>1414 Pine St</street>
+            <city>Springfield</city>
+            <state>IL</state>
+            <zip>62702</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>21</id>
+        <name>manoj</name>
+        <age>23</age>
+        <major>Information Technology</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>1515 Oak St</street>
+            <city>Chicago</city>
+            <state>IL</state>
+            <zip>60607</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>22</id>
+        <name>sara</name>
+        <age>22</age>
+        <major>Mechanical Engineering</major>
+        <gpa>3.9</gpa>
+        <address>
+            <street>1616 Maple St</street>
+            <city>Champaign</city>
+            <state>IL</state>
+            <zip>61823</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>23</id>
+        <name>neha</name>
+        <age>20</age>
+        <major>Chemistry</major>
+        <gpa>3.7</gpa>
+        <address>
+            <street>1717 Birch St</street>
+            <city>Peoria</city>
+            <state>IL</state>
+            <zip>61614</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>24</id>
+        <name>vikram</name>
+        <age>23</age>
+        <major>Physics</major>
+        <gpa>3.6</gpa>
+        <address>
+            <street>1818 Cedar St</street>
+            <city>Rockford</city>
+            <state>IL</state>
+            <zip>61108</zip>
+        </address>
+    </student>
+
+    <student>
+        <id>25</id>
+        <name>jaya</name>
+        <age>21</age>
+        <major>Biology</major>
+        <gpa>3.8</gpa>
+        <address>
+            <street>1919 Pine St</street>
+            <city>Joliet</city>
+            <state>IL</state>
+            <zip>60432</zip>
+        </address>
+    </student>
+</students>

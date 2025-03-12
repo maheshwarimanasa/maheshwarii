@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .student-info {
+            margin-top: 20px;
+        }
+        .student-info p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Student by ID</h1>
+    
+    <input type="text" id="searchBar" placeholder="Enter Student ID" oninput="searchStudent()">
+    
+    <div id="studentDetails" class="student-info"></div>
+
+    <script>
+        const studentsXML = `
+        <students>
+            <student>
+                <id>1</id>
+                <name>mahi</name>
+                <age>20</age>
+                <major>Computer Science</major>
+                <gpa>3.8</gpa>
+                <address>
+                    <street>123 Elm St</street>
+                    <city>Springfield</city>
+                    <state>IL</state>
+                    <zip>62701</zip>
+                </address>
+            </student>
+            <student>
+                <id>2</id>
+                <name>nidhi</name>
+                <age>22</age>
+                <major>Mathematics</major>
+                <gpa>3.6</gpa>
+                <address>
+                    <street>456 Oak St</street>
+                    <city>Champaign</city>
+                    <state>IL</state>
+                    <zip>61820</zip>
+                </address>
+            </student>
+            <!-- Add other students here as per the original data -->
+        </students>
+        `;
+
+        // Parse XML data
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(studentsXML, "application/xml");
+
+        // Function to search for student by ID
+        function searchStudent() {
+            const searchId = document.getElementById('searchBar').value;
+            const studentDetails = document.getElementById('studentDetails');
+            studentDetails.innerHTML = ''; // Clear previous results
+
+            // Search for the student by ID in the XML
+            const students = xmlDoc.getElementsByTagName('student');
+            let found = false;
+
+            for (let i = 0; i < students.length; i++) {
+                const studentId = students[i].getElementsByTagName('id')[0].textContent;
+                if (studentId === searchId) {
+                    found = true;
+                    const name = students[i].getElementsByTagName('name')[0].textContent;
+                    const age = students[i].getElementsByTagName('age')[0].textContent;
+                    const major = students[i].getElementsByTagName('major')[0].textContent;
+                    const gpa = students[i].getElementsByTagName('gpa')[0].textContent;
+                    const street = students[i].getElementsByTagName('street')[0].textContent;
+                    const city = students[i].getElementsByTagName('city')[0].textContent;
+                    const state = students[i].getElementsByTagName('state')[0].textContent;
+                    const zip = students[i].getElementsByTagName('zip')[0].textContent;
+
+                    studentDetails.innerHTML = `
+                        <p><strong>Student ID:</strong> ${studentId}</p>
+                        <p><strong>Name:</strong> ${name}</p>
+                        <p><strong>Age:</strong> ${age}</p>
+                        <p><strong>Major:</strong> ${major}</p>
+                        <p><strong>GPA:</strong> ${gpa}</p>
+                        <p><strong>Address:</strong> ${street}, ${city}, ${state} - ${zip}</p>
+                    `;
+                    break;
+                }
+            }
+
+            if (!found) {
+                studentDetails.innerHTML = '<p>No student found with this ID.</p>';
+            }
+        }
+    </script>
+</body>
+</html>
