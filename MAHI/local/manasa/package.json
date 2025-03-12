@@ -1,0 +1,17 @@
+{
+  "name": "manasa_calc.js",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "add",
+    "sub",
+    "mul",
+    "div"
+  ],
+  "author": "manasa",
+  "license": "ISC",
+  "description": ""
+}
